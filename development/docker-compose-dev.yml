@@ -205,7 +205,7 @@ services:
       - "127.0.0.1::3306"
 
   jiaapi-mock:
-    image: golang:1.16.5-buster
+    image: golang:1.18.5-buster
     restart: always
     working_dir: /jiaapi
     command: ["go", "run", "."]
